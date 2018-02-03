@@ -4,3 +4,9 @@ div > p#p1::before{
     content: "przed paragrafem";
     color: red;
 }
+div >p#p2::after{
+    content: "po paragrafie";
+    color: blue;
+}
+
+
