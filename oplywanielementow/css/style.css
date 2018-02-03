@@ -1,0 +1,11 @@
+img#pies {
+    float: left;
+}
+img#pies1 {
+    float: right;
+}
+
+p:last-child{
+    background-color: beige;
+    clear: right;
+}
