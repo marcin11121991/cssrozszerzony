@@ -4,5 +4,8 @@ a#link-1:link {
 }
 
 a:visited{
-    color: aquamarine;
+    color: red;
+}
+a#link-4:hover {
+    background-color: aqua;
 }
