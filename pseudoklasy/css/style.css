@@ -1,0 +1,8 @@
+
+a#link-1:link {
+    color:black;
+}
+
+a:visited{
+    color: aquamarine;
+}
