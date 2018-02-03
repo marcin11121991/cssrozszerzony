@@ -17,10 +17,13 @@
 #box1 {
     background-color: red;
     transition: width 2s;
+    overflow: hidden;
 }
 
 #box1:hover {
-    width:300px;
+    width:400px;
+    
+    
 }
 
 #box2 {
