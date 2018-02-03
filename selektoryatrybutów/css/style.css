@@ -1,0 +1,31 @@
+body {
+    background-color: white;
+}
+
+div.klient[suma] {
+    
+    background-color: aqua;
+}
+
+div.klient[suma="1140"] {
+    
+    background-color: lightblue;
+}
+
+div.klient[detaliczny~="tak"]{
+    background-color: blue;
+}
+
+div.klient[detaliczny*="tak"]{
+    background-color: pink;
+}
+
+div.klient[suma^="25"] {
+    background-color: darkred;
+}
+
+
+div.klient[suma$="40"] {
+    background-color: orange;
+    
+}
