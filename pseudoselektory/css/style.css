@@ -1,3 +1,6 @@
-body {
-    background-color: red;
+
+
+div > p#p1::before{
+    content: "przed paragrafem";
+    color: red;
 }
