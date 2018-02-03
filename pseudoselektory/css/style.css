@@ -1,12 +1,16 @@
 
 
-div > p#p1::before{
+div > p#p1::before {
     content: "przed paragrafem";
     color: red;
 }
-div >p#p2::after{
+div > p#p2::after {
     content: "po paragrafie";
     color: blue;
 }
 
 
+div > p#p3::first-letter {
+    color: green;
+    font-weight: bolder;
+}
